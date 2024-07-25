@@ -1188,8 +1188,11 @@ section .title::after{
     text-align: justify;
 }
 .contact .contact-content .left .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
     margin: 10px 0;
-}
+    }
 .contact .contact-content .row{
     display: flex;
     height: 65px;

@@ -602,7 +602,7 @@ section .title::after{
 }
 @media(max-width: 1000px){
     .home{
-        background: url("Debk") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -120px;
     }
     .navbar .logo a{
@@ -658,7 +658,7 @@ section .title::after{
 }
 @media(max-width: 900px){
     .home{
-        background: url("Debkanta9.jpg") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -120px;
     }
     .navbar .logo a{
@@ -713,7 +713,7 @@ section .title::after{
    }
 }@media(max-width: 800px){
     .home{
-        background: url("Debkanta9.jpg") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -120px;
     }
     .MyProjects{
@@ -767,8 +767,11 @@ section .title::after{
 }
 @media(max-width: 600px){
     .home{
-        background: url("Debkanta9.jpg") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -120px;
+    }
+    .home .home-image{
+        display: none;
     }
     .MyProjects{
         height: 2380px;
@@ -821,7 +824,7 @@ section .title::after{
 }
 @media(max-width: 500px){
     .home{
-        background: url("Debkanta9.jpg") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -150px;
     }
     .MyProjects{
@@ -868,7 +871,7 @@ section .title::after{
 }
 @media(max-width: 400px){
     .home{
-        background: url("Debkanta9.jpg") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -120px;
     }
     .MyProjects{
@@ -923,7 +926,7 @@ section .title::after{
 }
 @media(max-width: 300px){
     .home{
-        background: url("Debkanta9.jpg") cover no-repeat;
+        background: url("srimantadey.png") cover no-repeat;
         background-position: -130px;
     }
     .navbar .logo a{
@@ -1102,6 +1105,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    
 }
 .teams .carousel .card:hover{
     background: blue;
@@ -1113,6 +1117,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    height: 400px;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);

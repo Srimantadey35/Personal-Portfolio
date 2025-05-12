@@ -423,7 +423,7 @@ section .title::after{
 .skills-content .right .node::before{
     width: 90%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .sql::before{
     width: 90%;
 }
 .skills-content .right .mongodb::before{
